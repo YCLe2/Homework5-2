@@ -95,7 +95,7 @@ export default function Update() {
         />
       </div>
       <div>
-        <label>학년:</label>
+        <label>등급:</label>
         <input
           type="text"
           name="grade"

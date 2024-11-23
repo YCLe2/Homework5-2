@@ -48,7 +48,7 @@ export default function List() {
 
   return (
     <>
-      <div>목록입니다!!</div>
+      <div><h1>학생 관리 프로그램</h1></div>
       <div>
         {tempList.map((each) => (
           <div key={each.id}>
