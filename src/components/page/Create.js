@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import axios from 'axios';
+import './Create.css';
 
 export default function Create() {
   const [formData, setFormData] = useState({ name: '', age: '', grade: '', city: '' });
